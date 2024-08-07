@@ -1,1 +1,1 @@
-# The values entered later will be updated
+#When you add multiple key-value pairs with the same key to a dictionary, only the last one will be retained. The previous key-value pairs with the same key will be overwritten by the subsequent pair.
