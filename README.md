@@ -7,6 +7,8 @@ This is a part of my video The Ultimate Python Couse. Refer to this [video](http
 
 ## Table of Contents
 
+<img align="right" alt="python_logo" width="300" src="img/py_akashdip2001.png"> 
+
 - [The Ultimate Python Course](#the-ultimate-python-course)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
