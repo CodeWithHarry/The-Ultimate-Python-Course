@@ -1,4 +1,5 @@
-a = int(input("Enter number 1: "))
+a = int(input("Enter number 1: ")) 
+# Input function is let user allow user put input
 
 b = int(input("Enter number 2: "))
 

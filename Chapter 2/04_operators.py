@@ -15,9 +15,8 @@ print(b)
 # Comparison Operators
 
 d = 5==5
-
-print(d)
-
+print(d) 
+# Output true and false
 
 # Logical Operators
 
@@ -35,4 +34,5 @@ print("True and True is ", True and True)
 print("False and True is ", False and True)
 print("False and False is ", False and False)
 
+# The operator that changes True and False in opposite is called not.
 print(not(True))
