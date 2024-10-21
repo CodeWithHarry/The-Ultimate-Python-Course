@@ -87,5 +87,4 @@ print("-------------------------------------------------------------------------
 # TypeError: unhashable type: 'list' set is not indexed
 
 o = {8, 7, 12, "Harry", [1,2]}
-
 o[4][0] = 9
