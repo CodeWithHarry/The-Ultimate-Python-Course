@@ -18,3 +18,4 @@ d.update({name: lang})
 
 
 print(d)
+# same way solved in last file
