@@ -1,3 +1,4 @@
+# This will return the list with fruit inputed user.
 fruits = []
 
 f1 = input("Enter Fruit name: ")
@@ -10,9 +11,5 @@ f4 = input("Enter Fruit name: ")
 fruits.append(f4)
 f5 = input("Enter Fruit name: ")
 fruits.append(f5)
-f6 = input("Enter Fruit name: ")
-fruits.append(f6)
-f7 = input("Enter Fruit name: ")
-fruits.append(f7)
 
 print(fruits)

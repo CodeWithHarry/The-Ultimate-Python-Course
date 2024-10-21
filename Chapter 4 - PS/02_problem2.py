@@ -1,3 +1,6 @@
+# This will return the list with Marks in sorted manner.
+
+
 marks = []
 
 f1 = int(input("Enter Marks here: "))
