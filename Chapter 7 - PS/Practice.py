@@ -1,7 +1,7 @@
-# n = int(input("Enter a number: "))
+n = int(input("Enter a number: "))
 
-# for i in range (1,11):
-#     print(f"{n} * {i} = ", n * i )
+for i in range (1,11):
+    print(f"{n} * {i} = ", n * i )
 
 print("------------------------------------------------------------------")
 a = ["Aakash", "Emily", "Hitesh", "Anna"]
@@ -11,14 +11,14 @@ for n in a :
         print(f"Hello!! {n}")
 
 print("------------------------------------------------------------------")
-# b = int(input("Enter a number: "))
+b = int(input("Enter a number: "))
 
-# for n in range(2  ,b) :
-#     if (b % n) == 0:
-#         print(f"This is not a prime number")
-#         break
-# else:
-#     print(f"This is a prime number")
+for n in range(2  ,b) :
+    if (b % n) == 0:
+        print(f"This is not a prime number")
+        break
+else:
+    print(f"This is a prime number")
         
 print("------------------------------------------------------------------")
 
@@ -40,3 +40,60 @@ for i in range(1, n+1):
     product = product * i
 
 print(f"The factorial of {n} is {product}")
+
+print("------------------------------------------------------------------")
+'''
+For n = 3
+  *
+ ***
+*****
+
+For n = 5
+    *
+   ***
+  *****
+ ********
+**********
+
+'''
+
+n = int(input("Enter the number: "))
+for i in range(1, n+1):
+    print(" "* (n-i), end="")
+    print("*"* (2*i-1), end="")
+    print("")
+
+print("------------------------------------------------------------------")
+
+ 
+n = int(input("Enter the number: "))
+for i in range(1, n+1): 
+    print("*"* i, end="")
+    print("")
+print("------------------------------------------------------------------")
+
+'''
+
+***
+* *       for n = 3
+***
+
+
+'''
+n = int(input("Enter the number: "))
+for i in range(1, n+1): 
+    if(i==1 or i==n):
+        print("*"* n, end="")
+    else:
+        print("*", end="")
+        print(" "* (n-2), end="")
+        print("*", end="")
+    print("")
+
+print("------------------------------------------------------------------")
+
+n = int(input("Enter the number: "))
+
+for i in range(1, 11):
+    print(f"{n} X {11 -i} = {n*(11-i)}")
+
