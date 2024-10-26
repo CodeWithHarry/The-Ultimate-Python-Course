@@ -10,6 +10,8 @@ factorial(n) = n X n-1 X......3 X 2 X 1
 factorial(n) = n * factorial(n-1)
 '''
 
+# This is the example of Recurrsion, need to consider it could end in infinite loop
+
 def factorial(n):
     if(n==1 or n==0):
         return 1
