@@ -1,16 +1,4 @@
-# a = int(input("Enter your number: "))
-# b = int(input("Enter your number: "))
-# c = int(input("Enter your number: "))
- 
-# average = (a + b + c)/3
-# print(average)
-
-# a = int(input("Enter your number: "))
-# b = int(input("Enter your number: "))
-# c = int(input("Enter your number: "))
- 
-# average = (a + b + c)/3
-# print(average)
+# To reduce redundancy we use function-
 
 # Function Definition
 def avg():
@@ -21,8 +9,8 @@ def avg():
     average = (a + b + c)/3
     print(average)
 
-
-avg() # Function Call
+# Function Call
+avg() 
 print("Thank you!")
 avg()
 print("Thank you!")
