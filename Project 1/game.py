@@ -14,12 +14,6 @@ you = input("Enter your choice: ")
 # We will create a dictionary for the choices for Snake, Water and Gun
 youDict = {"S":1,"W":-1,"G":0}
 
-import random
-'''
-1 for snake
--1 for water 
-0 for gun
-'''
 computer = random.choice([-1, 0, 1])
 youstr = input("Enter your choice: ")
 youDict = {"s": 1, "w": -1, "g": 0}
