@@ -27,7 +27,6 @@ reverseDict = {1: "Snake", -1: "Water", 0: "Gun"}
 
 you = youDict[youstr]
 
-# By now we have 2 numbers (variables), you and computer
 
 print(f"You chose {reverseDict[you]}\nComputer chose {reverseDict[computer]}")
 
