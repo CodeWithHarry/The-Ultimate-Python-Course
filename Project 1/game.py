@@ -1,33 +1,28 @@
 # Snake Water and gun game
+import random
 
-'''
-1 for snake
--1 for water
-0 for gun
-'''
-# We will assign computer a value and then compare it for the winning
-computer = -1
+# We will assign computer a random value for the game
+computer = random.choice([-1, 0, 1])
 
 # This will let the user put the choice-
-you = input("Enter your choice: ")
+youStr = input("Enter your choice: ")
 
 # We will create a dictionary for the choices for Snake, Water and Gun
-youDict = {"S":1,"W":-1,"G":0}
+youDict = {"s":1,"w":-1,"g":0}
 
-computer = random.choice([-1, 0, 1])
-youstr = input("Enter your choice: ")
-youDict = {"s": 1, "w": -1, "g": 0}
 reverseDict = {1: "Snake", -1: "Water", 0: "Gun"}
 
-you = youDict[youstr]
+#It will chose the no. on the basis of user choice 
+you = youDict[youStr]
 
-
+# This will print the choices of both the computer and user.
 print(f"You chose {reverseDict[you]}\nComputer chose {reverseDict[computer]}")
 
+# This is will print when the both chose the same option
 if(computer == you):
     print("Its a draw")
-
 else:
+# This is nested loop example
     if(computer ==-1 and you == 1): 
         print("You win!")
 
