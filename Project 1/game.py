@@ -43,3 +43,42 @@ else:
 
     else:
         print("Something went wrong!")
+
+
+# This is short form of doing the same project-
+
+
+# if(computer == you):
+#     print("Its a draw")
+
+# else:
+#     '''
+        
+        # Calculate the number by adding it substracting it and if there is pattern use it
+        # e.g - in this -1 -1 = -2 and if we add it -1 + 1 = 0 but it doesn't show any pattern
+
+#      if(computer ==-1 and you == 1): (computer - you) = -2
+#         print("You win!")
+
+#     elif(computer ==-1 and you == 0): (computer - you) = -1
+#         print("You Lose!")
+
+#     elif(computer == 1 and you == -1): (computer - you) = 2
+#         print("You lose!")
+
+#     elif(computer ==1 and you == 0): (computer - you) = 1
+#         print("You Win!")
+
+#     elif(computer ==0 and you == -1): (computer - you) = 1
+#         print("You Win!")
+
+#     elif(computer == 0 and you == 1): computer - you) = -1
+#         print("You Lose!") 
+
+#         The below logic is written on the basis of the value of computer - you
+ 
+#     '''
+#     if((computer - you) == -1 or  (computer - you) == 2 ):
+#         print("You lose!")
+#     else:
+#         print("You win!") 
