@@ -1,3 +1,4 @@
+# This will check wheater a word is present in a file or not
 f = open("poem.txt")
 content = f.read()
 if("twinkle" in content):
