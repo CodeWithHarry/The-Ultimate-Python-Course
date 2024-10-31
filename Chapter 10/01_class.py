@@ -1,14 +1,17 @@
-class Employee: 
-    language = "Py" # This is a class attribute
-    salary = 1200000
+# Class is blue-print for creating an object-
+class Employee:
+    language = "Java" # This is a class attribute
+    salary = 4200000
 
 
-harry = Employee()
-harry.name = "Harry" # This is an instance attribute
-print(harry.name, harry.language, harry.salary)
+aakash = Employee()
+aakash.name = "Aakash" # This is an instance attribute
+print(aakash.name, aakash.language, aakash.salary)
 
-rohan = Employee()
-rohan.name = "Rohan Roro Robinson"
-print(rohan.name, rohan.salary, rohan.language)
+print("-------------------------------------------------------------")
+
+hitesh = Employee()
+hitesh.name = "Hitesh"
+print(hitesh.name, hitesh.salary, hitesh.language)
 
 # Here name is instance attribute and salary and language are class attributes as they directly belong to the class
