@@ -1,4 +1,4 @@
-
+# This will generate the tables in txt format
 def generateTable(n):
     table = ""
     for i in range(1, 11):
