@@ -1,1 +1,9 @@
-Python is amazing, Python basics are about to get completed.
+Python basics are about to get completed.
+This is File IO chapter
+I have to create a folio
+SQL is something I am interested in.
+Hey Aakash you are amazing!!
+Hey Aakash you are amazing!!
+Hey Aakash you are amazing!!
+Hey Aakash you are amazing!!
+Hey Aakash you are amazing!!
