@@ -1,4 +1,4 @@
-a = ["Harry", "Rohan", "Shubham"]
+a = ["Aakash", "Mahesh", "Sachdev"]
 
-final = "::".join(a)
-print(final)
+full_name = " - ".join(a)
+print(full_name)

@@ -1,5 +1,5 @@
 from functools import reduce
-# Map Example 
+# Map Example- if you want to use same function for all the element of the list
 l = [1, 2, 3, 4, 5]
 
 square = lambda x: x*x
@@ -16,7 +16,7 @@ def even(n):
 onlyEven= filter(even, l)
 print(list(onlyEven))
 
-# Reduce Example
+# Reduce Example it will apply function on consecutive numbers.
 def sum(a, b):
     return a + b
 
