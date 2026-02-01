@@ -1,0 +1,58 @@
+# My Data Analysis Practice: Loops
+# This script shows how to process data lists using loops.
+
+def analyze_data():
+    
+    # --- PART 1: The 'For' Loop (Iterating through an Array/List) ---
+    # Scenario: I have a list of daily sales figures. I want to print each one.
+    print("1. Reading Daily Sales Data:")
+    daily_sales = [150, 200, 350, 400, 500]
+    
+    # "sale" is a variable that holds one number at a time from the list
+    for sale in daily_sales:
+        print("Processing sale amount: $", sale)
+
+    print("-" * 30)
+
+    # --- PART 2: Filtering Data (Loop with Condition) ---
+    # Scenario: I only want to count days where sales were high (above 300).
+    print("2. Filtering High Sales (> 300):")
+    
+    count = 0
+    for sale in daily_sales:
+        if sale > 300:
+            print("Found high sale:", sale)
+            count = count + 1
+            
+    print("Total high revenue days:", count)
+
+    print("-" * 30)
+
+    # --- PART 3: The 'While' Loop (Data Cleaning) ---
+    # Scenario: removing '0' or bad data until the list is clean.
+    print("3. Cleaning Data (Removing Zeros):")
+    raw_data = [10, 0, 50, 0, 20]
+    
+    # While '0' exists inside the raw_data list, remove it
+    while 0 in raw_data:
+        raw_data.remove(0)
+        print("Removed a zero... Current data:", raw_data)
+        
+    print("Final Cleaned Data:", raw_data)
+
+    print("-" * 30)
+
+    # --- PART 4: Break and Continue ---
+    # Scenario: Searching for a specific error value (like -1).
+    print("4. searching for Errors:")
+    dataset = [12, 45, -1, 60, 100]
+    
+    for value in dataset:
+        if value == -1:
+            print("Error found! Corrupted data detected. Stopping analysis.")
+            break # Stops the loop completely
+        print("Checking value:", value)
+
+# Run the analysis function
+if __name__ == "__main__":
+    analyze_data()
