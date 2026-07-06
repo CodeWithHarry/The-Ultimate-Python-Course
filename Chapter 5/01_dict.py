@@ -6,5 +6,5 @@ marks = {
 }
 
 
-# print(marks, type(marks))
+print(marks, type(marks))
 print(marks["Harry"])
