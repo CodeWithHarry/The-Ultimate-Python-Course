@@ -61,10 +61,16 @@ def processCommand(c):
         webbrowser.open("https://youtube.com")
     elif "open linkedin" in c.lower():
         webbrowser.open("https://linkedin.com")
-    elif c.lower().startswith("play"):
-        song = c.lower().split(" ")[1]
-        link = musicLibrary.music[song]
-        webbrowser.open(link)
+    elif "play" in c.lower():
+        # song = c.lower().split(" ")[1] == another way but gives error for song with whitespaces 
+        song = c.lower().replace("play", "").strip()
+        link = musiclibrary.music.get(song)                
+        if link :
+            webbrowser.open(link)
+        else :
+            speak("song not found")                   
+            print(c)
+
 
     elif "news" in c.lower():
         r = requests.get(f"https://newsapi.org/v2/top-headlines?country=in&apiKey={newsapi}")
